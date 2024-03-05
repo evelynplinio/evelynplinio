@@ -1,0 +1,14 @@
+# Inicializando uma variável
+contador = 1
+# Usando uma estrutura de repetição (while) para contar até 5
+while contador <= 5:
+    # Usando uma estrutura de decisão (if) para verificar se o contador é ímpar
+    if contador % 2 != 0:
+        print(f"Contador: {contador} - Ímpar")
+    else:
+        print(f"Contador: {contador} - Par")
+
+    # Incrementando o contador
+    contador += 1
+
+print("Fim do programa")
